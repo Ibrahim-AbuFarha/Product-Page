@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the best products on our website, featuring high-quality items, detailed descriptions, and customer reviews. Shop now for exclusive offers and unbeatable prices!"
+    />
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
+
+    <title>Product Page</title>
+    <!--bootrsrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- slick carousal -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- aos css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--custom css-->
+    <link rel="stylesheet" href="index.min.css" />
+    <!-- bootsrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--header-->
+    <header class="mb-4 border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/logo.svg" alt="logo icon" loading="lazy"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-3">
+              <li class="nav-item fade-in">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item fade-in">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item fade-in">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item fade-in">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item fade-in">
+                <a class="nav-link" href="#">Your Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!--Product-->
+      <section class="product aos-init" data-aos="fade-up">
+        <div class="row align-items-center">
+          <article class="col-lg-6 aos-init" data-aos="zoom-in-up">
+            <ul class="slider slider-for">
+              <li>
+                <img src="assets/product1.jpg" alt="product1" loading="lazy" />
+              </li>
+              <li>
+                <img src="assets/product2.jpg" alt="product2" loading="lazy" />
+              </li>
+              <li>
+                <img src="assets/product3.jpg" alt="product3" loading="lazy" />
+              </li>
+            </ul>
+            <ul class="slider slider-nav">
+              <li>
+                <img src="assets/product1.jpg" alt="product1" loading="lazy" />
+              </li>
+              <li>
+                <img src="assets/product2.jpg" alt="product2" loading="lazy" />
+              </li>
+              <li>
+                <img src="assets/product3.jpg" alt="product3" loading="lazy" />
+              </li>
+            </ul>
+          </article>
+          <aside class="col-lg-6 product-card">
+            <h2 class="product-title fade-in">Product Title</h2>
+            <div class="product-price fade-in">
+              <span class="main-price">15$</span>
+              <span class="last-price">15</span>
+              <span class="discount">-50%</span>
+            </div>
+
+            <div class="d-flex align-items-center mb-3 fade-in gap-3">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+
+              <span class="product-reviews">(5 reviews)</span>
+            </div>
+            <div>
+              <div class="product-description fade-in">
+                <h4>Description:</h4>
+                <p>
+                  Boba etiam ut bulla tea est potus dilectus singulari
+                  compositione saporum et textuum, quae in Taiwan annis 1980
+                  orta sunt. Boba refert ad pilas masticas tapiocas in fundo
+                  potus inventas, quae typice lacte tea nigro sapiuntur. Boba
+                  phaenomenon. See More....
+                </p>
+              </div>
+            </div>
+            <div class="product-actions fade-in">
+              <input class="quantity" type="number" value="1" />
+              <button>
+                <img src="assets/Cart.svg" alt=" Cart img" /> Add To Cart
+              </button>
+            </div>
+            <div class="product-media d-flex align-items-center gap-3 mb-3">
+              <h5 class="fade-in">Share :</h5>
+              <ul>
+                <li class="fade-in">
+                  <img
+                    src="assets/facebook.svg"
+                    alt="Facebook icon"
+                    loading="lazy"
+                  />
+                </li>
+                <li class="fade-in">
+                  <img
+                    src="assets/twitter.svg"
+                    alt="Twitter icon"
+                    loading="lazy"
+                  />
+                </li>
+                <li class="fade-in">
+                  <img
+                    src="assets/pinterest.svg"
+                    alt="Pinterest icon"
+                    loading="lazy"
+                  />
+                </li>
+              </ul>
+            </div>
+            <ul class="product-payment d-flex gap-3">
+              <li class="fade-in">
+                <img src="assets/visa.png" alt="visa img" loading="lazy" />
+              </li>
+              <li class="fade-in">
+                <img
+                  src="assets/mastercard.png"
+                  alt=" mastercard img"
+                  loading="lazy"
+                />
+              </li>
+              <li class="fade-in">
+                <img src="assets/paypal.png" alt="paypal img" loading="lazy" />
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+      <!--Similar Product-->
+      <section class="similar-products">
+        <h1 class="aos-init" data-aos="fade-up">Similar Products</h1>
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-6 d-flex align-items-center gap-3 fade-in"
+          >
+            <div class="col-md-6">
+              <img
+                src="assets/similar1.png"
+                alt="similar product 1 img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="col-md-6 similar-product-details">
+              <h4>John Lewis ANYDAY</h4>
+              <p class="similar-product-price">40$</p>
+
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 d-flex align-items-center gap-3 fade-in"
+          >
+            <div class="col-md-6">
+              <img
+                src="assets/similar2.png"
+                alt="similar product 2 img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="col-md-6 similar-product-details">
+              <h4>John Lewis ANYDAY</h4>
+              <p class="similar-product-price">40$</p>
+
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 d-flex align-items-center gap-3 fade-in"
+          >
+            <div class="col-md-6">
+              <img
+                src="assets/similar3.png"
+                alt="similar product 3 img"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 similar-product-details">
+              <h4>John Lewis ANYDAY</h4>
+              <p class="similar-product-price">40$</p>
+
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reviews-->
+      <section class="reviews">
+        <h1 class="aos-init" data-aos="fade-up">Reviews</h1>
+        <div class="review-card mb-5 fade-in">
+          <div class="review-poster d-flex align-items-center gap-3 mb-3">
+            <img src="assets/review1.png" alt=" review1 img" loading="lazy" />
+            <div>
+              <h4>John Doe</h4>
+              <time>23-july</time>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-desc">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+        <div class="review-card fade-in">
+          <div class="review-poster d-flex align-items-center gap-3 mb-3">
+            <img src="assets/review2.png" alt=" review2 img" loading="lazy" />
+            <div>
+              <h4>Kira Quinn</h4>
+              <time>23-july</time>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-desc">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </section>
+    </main>
+    <div class="spinner-wrapper">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <button id="scrollToTop" aria-label="Scroll to Top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+    <footer class="py-4 my-4 border-top">
+      <div class="container">
+        <p class="copy-right">© 2024 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="index.min.js"></script>
+  </body>
+</html>
